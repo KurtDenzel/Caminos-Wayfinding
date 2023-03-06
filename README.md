@@ -15,7 +15,7 @@ The following are the main features of the system based on the guidelines given 
 - Step-by-step directions: Users can search for specific locations and receive step-by-step directions on how to get there.
 - Important information: The system provides important information about the school, such as its history, mission statement, and upcoming events.
 - Contact information: The system includes contact information for key staff members, making it easy to get in touch with teachers, counselors, and administrators.
-- Accessibility: The system is accessible from any device with an internet connection, such as smartphones, tablets, or computers. It is designed with user-friendliness in mind, with a simple and intuitive interface that is easy to navigate.
+- Accessibility: The system is accessible from any device with an internet connection, such as smartphones, tablets, or computers. It is designed with user-friend liness in mind, with a simple and intuitive interface that is easy to navigate.
 
 <br>
 
@@ -24,7 +24,7 @@ Compiling requires using cross-platform web server solution stack package or new
 
 Your solution stack software should run the modules of ```Apache``` & ```MySQL```, with their services of ```PID(s)``` & ```Port(s)``` having their respective numbers.
 
- Simply check your cli/audit logs below from your software for SmartXAM:
+ Simply check your cli/audit logs below from your software for Caminos:
 
 ```txt
   [Apache] 	Attempting to start Apache app...
@@ -32,7 +32,7 @@ Your solution stack software should run the modules of ```Apache``` & ```MySQL``
   [mysql] 	Attempting to start MySQL app...
   [mysql] 	Status change detected: running
 ```
-To test SmartXAM itself, firstly, we have to extract or place it within where is your Solution stack software is installed. After knowing the location that depends on the letters of your drive e.g. ```Drive for Work(C:)```, navigate to its repositories like this:
+To test Caminos itself, firstly, we have to extract or place it within where is your Solution stack software is installed. After knowing the location that depends on the letters of your drive e.g. ```Drive for Work(C:)```, navigate to its repositories like this:
 ```txt
   [xampp] -> [htdocs] -> [Folder name of the System]
 ```
@@ -48,7 +48,7 @@ Testing out the system just requires a modern browser of your choice, and enteri
 <br>
 
 # 🌎 Copyright
-SmartXam is Copyright © 2022 – onwards Kurt Calacday. It is distributed under the <a href="https://opensource.org/licenses/MIT">MIT License</a> A copy of the license is available in the distributed LICENSE file.
+Caminos is Copyright © 2022 – onwards Kurt Calacday. It is distributed under the <a href="https://opensource.org/licenses/MIT">MIT License</a> A copy of the license is available in the distributed LICENSE file.
 
 Caminos contains the following third-party libraries:
 - <a href="https://www.apachefriends.org/">XAMPP</a>,  a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
