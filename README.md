@@ -20,7 +20,7 @@ The following are the main features of the system based on the guidelines given 
 <br>
 
 # 🎢 Compiling
-Compiling requires using cross-platform web server solution stack package or newer. XAMPP, WampServer, MAMP and etcetera... are known to work for compiling SmartXAM.
+Compiling requires using cross-platform web server solution stack package or newer. XAMPP, WampServer, MAMP and etcetera... are known to work for compiling Caminos.
 
 Your solution stack software should run the modules of ```Apache``` & ```MySQL```, with their services of ```PID(s)``` & ```Port(s)``` having their respective numbers.
 
