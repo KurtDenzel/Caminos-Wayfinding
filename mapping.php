@@ -28,6 +28,38 @@
 		  box-shadow: 0 2px 17px 0 rgba(0, 0, 0, .25), 0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
 		  border-radius: 15px;
 		}
+
+		.useraccount:hover {
+		    cursor:pointer;
+		}		
+
+		.hovertext {
+		  position: relative;
+		  border-bottom: 1px dotted black;
+		}		
+
+		.hovertext:before {
+		  content: attr(data-hover);
+		  visibility: hidden;
+		  opacity: 0;
+		  width: 140px;
+		  background-color: black;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 5px;
+		  padding: 5px 0;
+		  transition: opacity 1s ease-in-out;
+
+		  position: absolute;
+		  z-index: 1;
+		  left: 0;
+		  top: 110%;
+		}
+
+		.hovertext:hover:before {
+		  opacity: 1;
+		  visibility: visible;
+		}		
 		
 	</style>	
 
@@ -51,11 +83,9 @@
 			    </div>
 
 			    <div class="col-sm text-end">
-			    	<button onclick="window.location.href='PV_login.php';">
-			    		<span class="material-symbols-outlined">
-							<img src="images/logout.png" style="width: 4vh">
-						</span>
-			    	</button>			      	
+					<img class="useraccount hovertext" src="images/logout.png" style="width: 4vh" 
+							data-hover="Hello, this is the tooltip"
+								onclick="window.location.href='PV_login.php'; cursor:pointer;">
 			    </div>			    
 
 			  </div>
